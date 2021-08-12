@@ -476,12 +476,15 @@ footer > p {
     .home2 > h3 {
         width: 59%;
     }
-    .services > h4 {
-        width: 51%;
+   .services > h4 {
+        width: 60%;
     }
     .services > h4, .work > h4 {
-        margin: 3rem 0 0 0;
+        margin: 3rem 0 0 1rem;
         font-size: 1.5rem;
+    }
+    .work > h4 {
+        width: 65%;
     }
     #img2, #img3, #img4 {
         margin: 1rem 0 0 0;
