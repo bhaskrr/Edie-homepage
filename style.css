@@ -12,6 +12,8 @@
 /** {
     border: 1px solid red;
 }*/
+
+
 body {
     margin: 1rem;
 }
@@ -333,7 +335,7 @@ footer > p {
         margin: none;
     }
     .services-grid > section {
-        margin: 2rem 0;
+        margin: 1rem 0;
         width: 80%;
     }
     .services > h4, .work > h4 {
@@ -469,28 +471,31 @@ footer > p {
         margin: 0.5rem;
     }
     .home1 {
-        width: 75%;
+        width: 80%;
     }
     .home2 > h3 {
-        width: 51%;
+        width: 59%;
     }
     .services > h4 {
         width: 51%;
     }
     .services > h4, .work > h4 {
-        margin: 3rem 0 0 1rem;
-        font-size: 1.1rem;
+        margin: 3rem 0 0 0;
+        font-size: 1.5rem;
     }
     #img2, #img3, #img4 {
         margin: 1rem 0 0 0;
     }
     .team .team-caption {
-        width: 42%;
+        width: 50%;
     }
     .left-para {
-        width: 76%;
+        width: 80%;
     }
     .team img {
+        width: 80%;
+    }
+    .clients > h6 {
         width: 80%;
     }
 }
