@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+    --poppins-font: 'Poppins', sans-serif;
+    --heebo-font: 'Heebo', sans-serif;
+    --gray1: rgba(51, 51, 51, 1);
+    --gray2: rgba(79, 79, 79, 1);
+    --gray3: rgba(130, 130, 130, 1);
+    --gray4: rgba(189, 189, 189, 1);
+    --gray6: rgba(242, 242, 242, 1);
+}
+/** {
+    border: 1px solid red;
+}*/
+
+
+body {
+    margin: 1rem;
+}
+header, .navbar > ul, .work-container,
+.team, .right-images, .right-two-images,
+.client, footer > section, .sitemap {
+    display: flex;
+}
+.submitBtn, .work  p, footer > p {
+    text-align: center;
+}
+.work-container, .team, .right-images,
+ .right-two-images {
+    justify-content: center;
+}
+.submitBtn, .services-icon, .btn-blue, .sitemap a , footer a,
+.contact span, .footer-label, footer > p  {
+    color: rgb(255,255,255);
+}
+.navbar a, .home1 > h3, .home2 > h3, .services > h4, .work > h4,
+h5, figcaption, .team .team-caption, .clients > h6, .client h6 {
+    color: var(--gray1);
+}
+.home2 > p, .services-grid  p, .left-para {
+    color: var(--gray2);
+}
+.home2 > form > label, .btn-gray, .small-figcaption, .client p {
+    color: var(--gray3);
+}
+header, .navbar > ul {
+    justify-content: space-between;
+}
+header {
+    font-size: 1.5rem;
+}
+header > h2, .contact span {
+    font-family: var(--heebo-font);
+    font-weight: 800;
+}
+.navbar > ul, .home, .submitBtn, .services > h4, .work > h4,
+.services-grid  p, h5, .btn, .work, figcaption, .team, .clients, 
+footer {
+    font-family: var(--poppins-font);
+}
+ul {
+    list-style: none;
+}
+.navbar > ul > li {
+    margin: 0 0 0 3rem;
+}
+a {
+    text-decoration: none;
+}
+.home, .btn, .work, .team .team-caption, .services > h4, .work > h4,
+.clients, footer {
+    font-weight: 500;
+}
+.home1, .home2 {
+    margin-left: 5rem;
+}
+.home1 {
+    width: 40%;
+}
+.home2 {
+    width: 25%;
+}
+.home1 > p {
+    color: rgba(45, 156, 219, 1);
+}
+.home1 > h3, .home2 > h3 {
+    font-size: 3rem;
+}
+.hero-image {
+    width: 100%;
+    border-radius: 1rem;
+}
+.email-input {
+    width: 60%;
+    height: 2rem;
+    padding: 0 1rem;
+    outline: none;
+    color: var(--gray4);
+    border-radius: 0.5rem;
+    border: var(--gray6);
+    background: var(--gray6);
+}
+.submitBtn {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: rgba(45, 156, 219, 1);
+    background: rgba(45, 156, 219, 1);
+}
+.services > h4, .work > h4 {
+    margin: 8rem 0 1rem 3rem;
+    font-size: 2rem;
+}
+.services > h4 {
+    width: 20%;
+}
+.services-grid {
+    margin: 2rem 0 0 4rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    cursor: pointer;
+}
+.services-grid > section {
+    width: 50%;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.services-grid  p {
+    width: 100%;
+    font-weight: 400;
+}
+h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.services-icon {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.edit {
+    background: rgba(45, 156, 219, 1);
+}
+.code {
+    background: rgba(39, 174, 96, 1);
+}
+.storage {
+    background: rgba(235, 87, 87, 1);
+}
+.front-end {
+    box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.1);
+}
+.front-end:hover {
+    border: 1px solid rgba(39, 174, 96, 1);
+}
+.design:hover {
+    border: 1px solid rgba(45, 156, 219, 1);
+}
+.back-end:hover {
+    border: 1px solid rgba(235, 87, 87, 1);
+}
+.btn {
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.btn-blue {
+    background: rgba(45, 156, 219, 1);
+}
+.work > h4 {
+    width: 25%;
+}
+.work-container {
+    margin: 5rem 0;
+}
+.work-container img {
+    width: 100%;
+    border-radius: 1rem;
+}
+.img-container {
+    width: 35%;
+}
+.with-margin {
+    margin: 6rem 0 0 0;
+}
+#img2, #img4 {
+    margin: 4rem 0 0 0;
+}
+.small-figcaption {
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+.work  p {
+    align-self: flex-end;
+    color: rgba(45, 156, 219, 1)
+}
+.team .team-caption {
+    font-size: 2rem;
+    width: 50%;
+}
+.left-text {
+    align-self: center;
+}
+.red {
+    color: rgba(235, 87, 87, 1);
+}
+.left-para {
+    width: 40%;
+    font-weight: 400;
+}
+.team img {
+    width: 80%;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.right-two-images {
+    flex-direction: column;
+}
+.girl-image {
+    align-self: center;
+}
+.clients {
+    margin: 4rem 0 6rem 3rem;
+}
+.clients > h6 {
+    width: 60%;
+    font-size: 2rem;
+}
+.client {
+    justify-content: flex-start;
+    align-items: center;
+}
+.client img {
+    width: 5%;
+    height: 5%;
+    border-radius: 0.5rem;
+    align-self: flex-end;
+}
+.bio {
+    margin: 0 0 0 1rem;
+    line-height: 1%;
+}
+.client h6 {
+    font-size: 1rem;
+}
+footer {
+    padding: 2rem 2rem 0.5rem;
+    background: rgba(16, 14, 29, 1);
+}
+footer > section {
+    justify-content: space-around;
+}
+.sitemap {
+    flex-direction: column;
+}
+.sitemap a {
+    margin: 0 0 1rem 0;
+}
+.contact {
+    justify-self: center;
+}
+.contact span {
+    font-size: 1.5rem;
+}
+footer > p {
+    font-style: italic;
+}
